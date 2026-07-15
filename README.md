@@ -1,2 +1,2 @@
-# Sae-Yeon Park Portfolio — GitHub Pages version
+# Sae-Yeon Park Portfolio
 
