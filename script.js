@@ -12,7 +12,7 @@ function setLanguage(language) {
   });
 }
 
-setLanguage(localStorage.getItem("saeyeon-language") === "en" ? "en" : "ko");
+setLanguage(localStorage.getItem("saeyeon-language") === "ko" ? "ko" : "en");
 languageButtons.forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.languageButton)));
 
 const modal = document.querySelector("#modal");

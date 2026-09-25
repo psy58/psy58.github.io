@@ -128,7 +128,7 @@ button { font: inherit; }
 .download-button:hover { border-color: var(--orange); background: var(--orange); color: #fff; }
 .download-button span { font-size: 19px; }
 .pdf-frame { height: min(1100px, 82vh); margin-top: 54px; border: 1px solid var(--line); background: var(--soft); }
-.pdf-frame object { display: block; width: 100%; height: 100%; }
+.pdf-frame object, .pdf-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
 .pdf-frame p { padding: 40px; }
 .pdf-frame p a { color: var(--orange); text-decoration: underline; }
 
